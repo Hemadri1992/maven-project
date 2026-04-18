@@ -13,8 +13,8 @@ pipeline {
 		
         stage('BUILDING THE CODE') {
             steps {
-                echo 'In this stage code will be build and mvn artifact will be generated'
-				sh 'mvn clean install '
+              //  echo 'In this stage code will be build and mvn artifact will be generated'
+				//sh 'mvn clean install '
 				
             }
         }		
